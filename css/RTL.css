@@ -1,0 +1,16 @@
+.upper .container .lan div > span{
+    padding-right: 30px;
+}
+
+.navbar .collapse  > .navbar-nav .nav-item{
+    margin-right: 10px;
+}
+
+.contact .gifedit{
+    margin-left: 15px;    
+}
+
+.contact label{
+    float: right;
+}
+

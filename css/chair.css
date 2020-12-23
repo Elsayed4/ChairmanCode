@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,400');
+body{
+    box-sizing: border-box;
+    overflow-x:hidden;
+    font-family:'Cairo', sans-serif;
+}
+
+.upper{
+    margin-top: 20px;
+}
+.upper .rrr{
+  float: right;  
+}
+.upper .logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.upper .container .imcon  img{
+    width: 138px;
+    height: 42px;
+}
+
+.upper .container .lan{
+
+    width: 220px;
+    
+}
+.upper .container .lan > span{
+    
+    background-color:#f7f7f7;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+
+.ele{
+ color:#fcc43f;
+}
+
+.ele:hover{
+ color:#fcc43f;
+ text-decoration: none;    
+}
+.upper .container .lan div{
+    position: absolute;
+    left: 0;
+    background-color: #f7f7f7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.upper .container .lan div > span{
+    display: block;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.upper .container .lan div > span:hover{
+  background-color: #f1f1f1;
+  color:#fcc43f;
+  
+}
+
+@media(max-width:576px){
+.upper .imcon img{
+   margin-bottom: 30px;
+    }
+
+}
+
+/*****************   *****************/
+nav{
+/*  background-color: #dddddd ;*/
+}
+
+#navbarSupportedContent{
+    background-color: #dddddd;
+}
+
+.navbar .collapse  > .navbar-nav{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar .collapse  > .navbar-nav .nav-item{
+    margin-left: 10px;
+    color: #000 !important;
+    padding: 5px 18px 5px 18px;
+}
+
+.navbar .collapse  > .navbar-nav .nav-item:first-of-type{
+    margin-left: 0;
+}
+
+.collapse ul li{
+    padding: 10px 15px !important;
+    color: #000 !important;
+}
+
+.collapse ul li a{
+  color: #000 !important;
+}
+
+.collapse ul li:hover {
+    background-color:#fcc43f !important;
+    transform: scale(1.04);
+    transition: all .2s ease;
+  }
+
+.collapse ul li:hover a{
+    color: #fff !important;
+}
+
+.sticky-top{
+   padding:0; 
+}
+/*****************   *****************/
+
+.engimg{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  
+}
+.about{
+ margin-top: 100px;   
+}
+
+.about h2{
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #452f01;
+}
+
+.about p{
+    line-height: 2;
+}
+
+/*****************  My Framwork  **************/
+.display-none{
+  display: none;    
+}
+
+
+@media(max-width:768px){
+
+.about{
+  margin-top: 25px;   
+}
+
+}
+
+
+@media(max-width:576px){
+
+.about{
+  margin-top: 10px;   
+}
+    
+ .about h2{
+   font-size: 25px;
+    }
+
+}
+
+/*****************  My Framwork  **************/
+ 
+.vid .coco{
+    width: 360px;
+    height: 550px;
+}
+
+.vid{
+    margin-top: 50px;
+}
+
+.vid .conb-l img{
+    max-height: 470px;
+    margin-top: -60px;
+}
+
+.whycon h2{
+    margin-bottom: 20px;
+}
+
+.whycon p{
+    line-height: 2;
+}
+
+.dev{
+    width:270px;
+    height: 270px;
+}
+
+@media(max-width:992px){
+    .conb-l img{
+        padding-top:80px;
+    }
+    .vid video{
+        margin-bottom: 80px;
+    }    
+}
+
+/*********** Starting services **************/
+.services{
+    margin-top: 80px;
+}
+
+.services h2{
+    margin-bottom:100px;
+}
+
+.services .container .row a{
+    color:#fcc43f; 
+}
+
+.services .container .row a:hover{
+    text-decoration:none; 
+}
+
+.services .container .row h6{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.services hr{
+    width:50%;
+}
+
+/*********** Ending services **************/
+
+.fa-chevron-up{
+ float: right;
+ position: fixed;
+ bottom: 80px;
+ right: 30px;
+ background-color:#fcc43f;/*main color*/
+ padding: 8px;
+ color:#fff;
+ border-radius: 5%;
+ cursor: pointer;
+ z-index: 3
+}
+
+
+/************* Footer *********/
+footer{
+    background: #000;
+    padding: 80px 0;
+    color: #FFF;
+    
+}
+.footer .footer-top{
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+}
+.footer .footer-img{
+    border-right: 1px solid #555;
+    padding: 0 10px 0 0
+}
+footer .footer-img img{
+/*    width: 100%;*/
+
+}
+footer .footer-p{
+    line-height: 2;
+    font-size: 14px
+}
+footer .bg-widget{
+    background: url(../world-map.png);
+    padding: 0;
+}
+footer .widget{
+    color: #62646c;
+}
+
+footer .widget .widget-title h4{
+    color: #343434;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px
+}
+.footer .footer-list{
+
+}
+.footer .footer-list li{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 14px
+}
+.footer .footer-list li i {
+    margin-right: 10px
+}
+.footer .footer-list li a{
+    color: #FCC43F;
+}
+footer .footer-list li  strong{
+
+}
+footer .articles{
+
+}
+.footer .articles li{
+    
+    margin-bottom: 8px
+}
+.footer .articles a{
+    color: #FCC43F;
+}
+.footer form{
+
+}
+.footer form input{
+    width: 200px !important;
+    margin: 10px 0;
+}
+.footer form button{
+    width: 200px;
+    padding: 6px 0;
+    border: 1px solid #FFF;
+    background: #FCC43F;
+
+}
+/**************************      Starting styling team      ***************************************/
+.team h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FCC43F;
+   
+}
+
+.team .container img{
+    width: 300px;
+    height: 82px;
+    margin-bottom: 180px;
+    margin-top: 140px;
+}
+
+@media(max-width:768px){
+.team .container img{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+    
+.team h2{
+        margin-bottom: 100px;
+}
+footer{
+        margin-top: 100px;
+}
+
+}
+
+/**************************      Ending styling team      ***************************************/
+
+/**************************     Starting Contact Us       **************************************/
+
+
+.contact h2{
+       padding-top: 40px;
+       padding-bottom: 40px;
+       background-color: #FCC43F;
+       font-weight: 700;
+       margin-bottom: 120px;
+}
+
+.contact input,.contact textarea,.contact select{
+    border: 2px solid #222;
+    margin-bottom: 50px;
+}
+.contact button{
+    background-color: #FCC43F;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border:none;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.contact button{
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.contact hr{
+    margin-bottom: 100px;
+}
+
+.contact .gifedit{
+    height: 150px;
+    width: 150px;
+    margin-right: 15px;    
+}
+
+.contact .my-mb{
+  margin-bottom:35px; 
+    
+}
+
+.contact h3{
+  font-weight: 700;
+   text-align: center;
+}
+
+.contact .aa{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact .zz{
+ color: #696f6f;
+ font-weight: 600;
+}
+
+
+/**************************     Starting Contact Us       **************************************/
+
+
+/* Progress */
+
+.progress-section{
+    padding: 80px 0
+}
+.chart {
+    position:relative;
+    width:165px;
+    height:165px;
+    margin: 0 auto;
+    font-family: 'Titillium web';
+    font-weight: 300 ;
+
+}
+canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+.progress-section span {
+    color:#555;
+    display:block;
+    line-height:165px;
+    text-align:center;
+    width:165px;
+    font-size:40px;
+    font-weight:300;
+    margin-left:5px;
+}
+
+figcaption h3{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 15px
+}
+figure span{
+    font-size: 26px;
+    font-weight: bold;
+}
+/* partners */
+.partners{
+    padding: 70px 0;
+    text-transform: uppercase;
+    position: relative;
+}
+.partners .item{
+    padding: 50px ;
+    height: 254px;
+}
+.partners .item img{
+    width: 100%;
+    height: 100%
+}
+
+.partners .arrows{
+   }
+.partners .arrows .next{
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 0
+}
+
+.partners .arrows .prev{
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 0
+}
+.partners .arrows span{
+    background: #000;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 23px;
+    margin: 0;
+    cursor: pointer;
+}
+
+nav .activee{
+    color: #fcc43f !important;
+}
+
+.rrr{
+  float: right !important;
+  margin-right: -50px;
+}
+
+
